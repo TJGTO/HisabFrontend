@@ -1,3 +1,3 @@
 export default function Test() {
-  return <p className="font-extrabold">Test</p>;
+  return <p className="font-extrabold">Testing</p>;
 }
