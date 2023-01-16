@@ -41,5 +41,5 @@ jobs:
         run: yarn lint
 
       # Run Test Scripts
-      #- name: Test
-      # run: npm test
+      - name: Test
+        run: npm test
