@@ -8,7 +8,7 @@ export default function Nav() {
     { name: "BLOG'S", link: "/" },
     { name: "CONTACT", link: "/" },
   ];
-  let [open, setOpen] = useState(false);
+  let [open, setOpen] = useState<boolean>(false);
   return (
     <>
       <div className="shadow-md w-full fixed top-0 left-0 ">
